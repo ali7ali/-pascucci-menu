@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".90"
+    android:background="@drawable/background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/welcome_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="15"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/name_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="15"
+        android:textAlignment="center"
+        android:textColor="#43c7d6"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_display">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/ic_pass"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:textColor="#53c39a"
+            android:textColorHint="#fff"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/show2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/password2"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:text="@string/show"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:onClick="showDialog"
+        android:text="@string/forgot_password"
+        android:textSize="30sp"
+        android:textColor="#AAFAC8"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Continue"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/relative2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/continuee"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/actionBarItemBackground"
+        android:drawableLeft="@drawable/help"
+        android:drawableStart="@drawable/help"
+        android:onClick="showHelp"
+        android:text="@string/help"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

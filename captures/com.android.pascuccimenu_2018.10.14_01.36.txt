@@ -1,0 +1,65 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cc8302d com.android.pascuccimenu/com.example.android.pascuccimenu.SplashActivity filter 5e64aa2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.android.pascuccimenu/com.example.android.pascuccimenu.data.PascucciMenuProvider:
+    Provider{fb86962 com.android.pascuccimenu/com.example.android.pascuccimenu.data.PascucciMenuProvider}
+
+ContentProvider Authorities:
+  [com.example.android.pascuccimenu]:
+    Provider{fb86962 com.android.pascuccimenu/com.example.android.pascuccimenu.data.PascucciMenuProvider}
+      applicationInfo=ApplicationInfo{56ceaf3 com.android.pascuccimenu}
+
+Key Set Manager:
+  [com.android.pascuccimenu]
+      Signing KeySets: 27
+
+Packages:
+  Package [com.android.pascuccimenu] (f6d0ec9):
+    userId=10093
+    pkg=Package{9e843b0 com.android.pascuccimenu}
+    codePath=/data/app/com.android.pascuccimenu-1
+    resourcePath=/data/app/com.android.pascuccimenu-1
+    legacyNativeLibraryDir=/data/app/com.android.pascuccimenu-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=16 targetSdk=24
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{56ceaf3 com.android.pascuccimenu}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.android.pascuccimenu
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2018-09-21 13:32:03
+    firstInstallTime=2018-09-21 12:17:04
+    lastUpdateTime=2018-09-21 13:32:05
+    signatures=PackageSignatures{fae10ef [f3135d1f]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.GET_ACCOUNTS
+      android.permission.READ_PROFILE
+      android.permission.READ_CONTACTS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.READ_PROFILE: granted=true
+    User 0: ceDataInode=7649 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+
+Dexopt state:
+  [com.android.pascuccimenu]
+    Instruction Set: x86
+      path: /data/app/com.android.pascuccimenu-1/base.apk
+      status: /data/app/com.android.pascuccimenu-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpTo
+      Date]

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Pascucci Cafe</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="english" translatable="false">English</string>
+    <string name="toast_message">"1.   Log in as admin for editing permissions.
+
+ 2.   Log in as Guest for just viewing the menu.
+
+ 3.   Now let's start.
+
+              Enjoy the app! ☺</string>
+    <!-- Label for overflow menu option that inserts fake menu item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all menu items data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Menu Items</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add_item a menu item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a menu item</string>
+
+    <!-- Title for the activity to add_item a new menu item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_menuitem">Add a menu item</string>
+
+    <!-- Title for the activity to edit an existing menu item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_menuitem">Edit menu item</string>
+
+    <!-- Label for editor menu option to save menu item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current menu item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new menu item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_menuitem_successful">Menu item saved</string>
+
+    <!-- Toast message: validation of product name field -->
+    <string name="validation_msg_menuitem_name">Menu item name is required</string>
+
+    <!-- Toast message in editor when new menu item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_menuitem_failed">Error with saving menu item</string>
+
+    <!-- Toast message in editor when current menu item was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_menuitem_successful">Menu item updated</string>
+
+    <!-- Toast message in editor when current menu item has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_menuitem_failed">Error with updating menu item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current menu item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current menu item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_menuitem_successful">Menu item deleted</string>
+
+    <!-- Toast message in editor when current menu item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_menuitem_failed">Error with deleting menu item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current menu item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this menu item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current menu item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current menu item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_gender">Type</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_name" translatable="false">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_type">Type</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_weight">Price</string>
+
+    <!-- Units for weight of the menu item (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_item_weight">SYP</string>
+
+    <!-- Label for dropdown menu option if the menu items type is unknown [CHAR LIMIT=20] -->
+    <string name="type_main">Main</string>
+
+    <!-- Label for dropdown menu option if the menu item is item [CHAR LIMIT=20] -->
+    <string name="type_item">Item</string>
+
+    <!-- Label for the menu item type if the type is main [CHAR LIMIT=20] -->
+    <string name="main_type">Main</string>
+
+    <string name="slogan" translatable="false">Menu</string>
+    <string name="title_activity_splash" translatable="false">Pascucci Cafe</string>
+
+    <!-- Type of files which can be selected (Add photo) -->
+    <string name="intent_type" translatable="false">image/*</string>
+   <!-- Directory PATH-->
+   <string name="intent_type_folder" translatable="false">*/*</string>
+    <!-- Label hint for the select folder section. -->
+    <string name="select_folder">Select folder</string>
+    <!-- Label hint for the add_item photo section. Visible if new product -->
+    <string name="select_image">Select image</string>
+    <!-- Toast message: validation of product image -->
+    <string name="validation_msg_product_image">Photo of menu item is required</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="navigation_drawer_open" translatable="false">navigation drawer open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="note" translatable="false">welcome to pascucci cafe</string>
+    <string name="item_activity">Item Description</string>
+    <string name="Language">Language</string>
+    <string name="hint_item_description" translatable="false">Description</string>
+    <string name="namear" translatable="false">الاسم</string>
+    <string name="descriptionar" translatable="false">الوصف</string>
+    <string name="Item_Image">Item image</string>
+    <string name="Item_under">Item under</string>
+    <string name="login_admin">Login as admin</string>
+    <string name="login_guest">Login As Guest</string>
+    <string name="About">About</string>
+    <string name="welcome">Welcome !</string>
+    <string name="password">Password</string>
+    <string name="show">Show</string>
+    <string name="forgot_password">Forgot Password !!</string>
+    <string name="continuee">Continue</string>
+    <string name="Menu">Menu</string>
+    <string name="Offers">Daily Offers</string>
+    <string name="about">About Us</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="Share">Share</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Visit_Developer">Visit Developer</string>
+    <string name="Communicate">Communicate</string>
+    <string name="offer">Add to offers</string>
+    <string name="offerr">Add/Remove</string>
+    <string name="DataBase">DataBase</string>
+    <string name="menu_item_call" translatable="false">menu item call</string>
+    <string name="menu_item_text" translatable="false">item text</string>
+    <string name="menu_item_email" translatable="false">item mail</string>
+    <string name="menu" translatable="false">Menu</string>
+    <string name="Login">Login</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="ar">عربي</string>
+    <string name="en" translatable="false">English</string>
+    <string name="export">Export</string>
+    <string name="importt">import</string>
+    <string name="help">help</string>
+    <string name="settings">settings</string>
+    <string name="media">Media</string>
+</resources>
