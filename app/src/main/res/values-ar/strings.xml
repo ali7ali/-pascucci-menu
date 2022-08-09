@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pascucci Cafe</string>
+    <string name="toast_message">"1.   الدخول كـ مدير لتحصل على صلاحيات التعديل.
+
+ 2.   الدخول كـ زبون لتتمكن من عرض المينيو.
+
+ 3.   والآن لتبدأ المتعة.
+
+              استمتع بالتطبيق! ☺</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_delete_all_entries">حذف كل العناصر</string>
+    <string name="action_insert_dummy_data">اضافة عنصر مزيف</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_sign_in">تسجيل دخول</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="cancel">الغاء</string>
+    <string name="category_gender">النوع</string>
+    <string name="category_overview">الوصف</string>
+    <string name="category_price">السعر</string>
+    <string name="delete">الحذف</string>
+    <string name="delete_dialog_msg">هل انت متأكد من حذف هذا العنصر؟</string>
+    <string name="discard">تجاهل</string>
+    <string name="editor_activity_title_edit_menuitem">تعديل العنصر</string>
+    <string name="editor_activity_title_new_menuitem">اضافة عنصر</string>
+    <string name="editor_delete_menuitem_failed">خطأ في حذف العنصر</string>
+    <string name="editor_delete_menuitem_successful">تم حذف العنصر</string>
+    <string name="hint_item_type">النوع</string>
+    <string name="hint_item_weight">السعر</string>
+    <string name="item_activity">وصف العنصر</string>
+    <string name="editor_insert_menuitem_failed">خطأ في حفظ العنصر</string>
+    <string name="editor_insert_menuitem_successful">تم الحفظ بنجاح</string>
+    <string name="editor_update_menuitem_failed">خطأ في تعديل العنصر</string>
+    <string name="editor_update_menuitem_successful">تم التحديث بنجاح</string>
+    <string name="empty_view_subtitle_text">إبدأ بإضافة عنصر</string>
+    <string name="empty_view_title_text">لا يوجد عناصر هنا حالياً</string>
+    <string name="error_field_required">الحقل مطلوب</string>
+    <string name="error_incorrect_password">كلمة المرور غير صحيحة</string>
+    <string name="keep_editing">تابع التعديل</string>
+    <string name="main_type">رئيسي</string>
+    <string name="navigation_drawer_close">اغلاق</string>
+    <string name="select_image">اختر صورة</string>
+    <string name="type_item">عنصر</string>
+    <string name="type_main">رئيسي</string>
+    <string name="unit_item_weight">ل.س</string>
+    <string name="unsaved_changes_dialog_msg">تجاهل التعديل والخروج؟</string>
+    <string name="validation_msg_menuitem_name">اسم العنصر مطلوب</string>
+    <string name="validation_msg_product_image">صورة العنصر مطلوبة</string>
+    <string name="Language">اللغة</string>
+    <string name="Item_Image">صورة العنصر</string>
+    <string name="Item_under">العنصر ضمن</string>
+    <string name="login_admin">الدخول كـ مدير</string>
+    <string name="login_guest">الدخول كـ زبون</string>
+    <string name="About">حول</string>
+    <string name="Menu">القائمة</string>
+    <string name="Offers">العروض اليومية</string>
+    <string name="about">حول</string>
+    <string name="continuee">الاستمرار</string>
+    <string name="forgot_password">نسيت كلمة المرور!!</string>
+    <string name="password">كلمة المرور</string>
+    <string name="show">عرض</string>
+    <string name="welcome">مرحبا بك !</string>
+    <string name="version">"اصدار 1.0.0 "</string>
+    <string name="visit_website">موقعنا</string>
+    <string name="Communicate">الاتصال</string>
+    <string name="Feedback">ملاحظاتكم</string>
+    <string name="Share">مشاركة</string>
+    <string name="Visit_Developer">المطورون</string>
+   <string name="offer">اضافة للعروض</string>
+   <string name="offerr">اضافة/ازالة</string>
+    <string name="Login">دخول</string>
+    <string name="ar">عربي</string>
+   <string name="export">تصدير</string>
+
+   <string name="importt">استيراد</string>
+   <string name="select_folder">اختر المجلد</string>
+   <string name="DataBase">قاعدة البيانات</string>
+    <string name="help">مساعدة</string>
+    <string name="settings">الاعدادات</string>
+    <string name="media">الميديا</string>
+</resources>
