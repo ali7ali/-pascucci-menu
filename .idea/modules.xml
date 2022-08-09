@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pascucci2019.iml" filepath="$PROJECT_DIR$/pascucci2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pascucci2019.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zip4j_2.1.4/pascucci2019.zip4j_2.1.4.iml" filepath="$PROJECT_DIR$/.idea/modules/zip4j_2.1.4/pascucci2019.zip4j_2.1.4.iml" />
+    </modules>
+  </component>
+</project>

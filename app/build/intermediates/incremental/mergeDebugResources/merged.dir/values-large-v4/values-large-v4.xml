@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+    <dimen name="add_image_size">45dp</dimen>
+    <dimen name="app_name">100sp</dimen>
+    <dimen name="app_name_splash">70dp</dimen>
+    <dimen name="badge_size">30dp</dimen>
+    <dimen name="btn_activity_main_w">500dp</dimen>
+    <dimen name="card_height">360dp</dimen>
+    <dimen name="card_image_height">240dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="dialog_image_width">225dp</dimen>
+    <dimen name="dialog_nav_height">75dp</dimen>
+    <dimen name="drawer_footer_height">90dp</dimen>
+    <dimen name="elevation">3dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="img_activity_main_h">233dp</dimen>
+    <dimen name="img_activity_main_w">300dp</dimen>
+    <dimen name="item_name_height">60dp</dimen>
+    <dimen name="large_margin_size">15dp</dimen>
+    <dimen name="large_padding_size">15dp</dimen>
+    <dimen name="large_text_size">30sp</dimen>
+    <dimen name="margin_size">7dp</dimen>
+    <dimen name="menu_splash">45sp</dimen>
+    <dimen name="nav_header_height">240dp</dimen>
+    <dimen name="nav_header_vertical_spacing">24dp</dimen>
+    <dimen name="normal_padding_size">7dp</dimen>
+    <dimen name="normal_text_size">23sp</dimen>
+    <dimen name="order_image_width">120dp</dimen>
+    <dimen name="small_padding_size">5dp</dimen>
+    <dimen name="small_text_size">18sp</dimen>
+    <dimen name="tab_indicator_height">6dp</dimen>
+    <dimen name="tab_layout_height">120dp</dimen>
+    <dimen name="total_width">150dp</dimen>
+    <dimen name="txt_activity_main">30sp</dimen>
+    <dimen name="xlarge_margin_size">45dp</dimen>
+    <dimen name="xlarge_text_size">35sp</dimen>
+    <string name="Login">Login</string>
+    <string name="help">help</string>
+    <string name="media">Media</string>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+</resources>

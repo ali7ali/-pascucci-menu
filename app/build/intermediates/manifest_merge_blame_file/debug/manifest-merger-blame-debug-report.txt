@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4     Licensed under the Apache License, Version 2.0 (the "License");
+5     you may not use this file except in compliance with the License.
+6     You may obtain a copy of the License at
+7          http://www.apache.org/licenses/LICENSE-2.0
+8     Unless required by applicable law or agreed to in writing, software
+9     distributed under the License is distributed on an "AS IS" BASIS,
+10     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+11     See the License for the specific language governing permissions and
+12     limitations under the License.
+13-->
+14<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+15    package="com.android.pascuccimenu"
+16    android:versionCode="1"
+17    android:versionName="1.0" >
+18
+19    <uses-sdk
+20        android:minSdkVersion="19"
+20-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml
+21        android:targetSdkVersion="28" />
+21-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml
+22
+23    <!-- Permissions -->
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:18:5-80
+24-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:19:5-81
+25-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:19:22-78
+26    <!--  -->
+27    <application
+27-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:22:5-112:21
+28        android:allowBackup="true"
+28-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:23:9-35
+29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+29-->[com.android.support:support-compat:28.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+30        android:debuggable="true"
+31        android:fullBackupContent="@xml/backup_descriptor"
+31-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:30:9-59
+32        android:hardwareAccelerated="false"
+32-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:27:9-44
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:24:9-43
+34        android:label="@string/app_name"
+34-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:25:9-41
+35        android:largeHeap="true"
+35-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:28:9-33
+36        android:supportsRtl="true"
+36-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:26:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:29:9-40
+39        <activity
+39-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:33:9-43:20
+40            android:name="com.example.android.pascuccimenu.SplashActivity"
+40-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:34:13-75
+41            android:icon="@drawable/app_icon"
+41-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:35:13-46
+42            android:label="@string/title_activity_splash"
+42-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:36:13-58
+43            android:theme="@style/AppTheme.NoActionBar" >
+43-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:37:13-56
+44            <intent-filter>
+44-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:39:13-42:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:40:17-69
+45-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:40:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:41:17-77
+47-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:44:9-49:20
+51            android:name="com.example.android.pascuccimenu.MainWActivity"
+51-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:45:13-74
+52            android:parentActivityName="com.example.android.pascuccimenu.SplashActivity"
+52-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:47:13-89
+53            android:theme="@style/AppTheme.NoActionBar" >
+53-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:46:13-56
+54        </activity>
+55        <activity
+55-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:50:9-54:20
+56            android:name="com.example.android.pascuccimenu.MainActivity"
+56-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:51:13-73
+57            android:label="@string/app_name" >
+57-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:52:13-45
+58        </activity>
+59        <activity
+59-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:55:9-60:20
+60            android:name="com.example.android.pascuccimenu.AboutUs"
+60-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:56:13-68
+61            android:label="@string/app_name"
+61-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:57:13-45
+62            android:parentActivityName="com.example.android.pascuccimenu.MainWActivity" >
+62-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:58:13-88
+63        </activity>
+64        <activity
+64-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:61:9-66:20
+65            android:name="com.example.android.pascuccimenu.SettingsActivity"
+65-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:62:13-77
+66            android:label="@string/app_name"
+66-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:63:13-45
+67            android:parentActivityName="com.example.android.pascuccimenu.MainWActivity" >
+67-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:64:13-88
+68        </activity>
+69        <activity
+69-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:67:9-73:20
+70            android:name="com.example.android.pascuccimenu.RecyclerCatalogActivity"
+70-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:68:13-84
+71            android:label="@string/app_name"
+71-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:69:13-45
+72            android:parentActivityName="com.example.android.pascuccimenu.MainWActivity"
+72-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:71:13-88
+73            android:theme="@style/NewTheme" >
+73-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:70:13-44
+74        </activity>
+75        <activity
+75-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:75:9-80:20
+76            android:name="com.example.android.pascuccimenu.ItemActivity"
+76-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:76:13-73
+77            android:label="@string/app_name"
+77-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:77:13-45
+78            android:parentActivityName="com.example.android.pascuccimenu.RecyclerCatalogActivity" >
+78-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:78:13-98
+79        </activity>
+80        <activity
+80-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:81:9-86:16
+81            android:name="com.example.android.pascuccimenu.OffersActivity"
+81-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:82:13-75
+82            android:label="@string/app_name"
+82-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:83:13-45
+83            android:parentActivityName="com.example.android.pascuccimenu.MainWActivity" >
+83-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:84:13-88
+84        </activity>
+85        <activity
+85-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:87:9-96:20
+86            android:name="com.example.android.pascuccimenu.EditorActivity"
+86-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:88:13-75
+87            android:parentActivityName="com.example.android.pascuccimenu.RecyclerCatalogActivity"
+87-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:89:13-98
+88            android:theme="@style/EditorTheme" >
+88-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:90:13-47
+89
+90            <!-- Parent activity meta-data to support 4.0 and lower -->
+91            <meta-data
+91-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:93:13-95:92
+92                android:name="android.support.PARENT_ACTIVITY"
+92-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:94:17-63
+93                android:value="com.example.android.pascuccimenu.RecyclerCatalogActivity" />
+93-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:95:17-89
+94        </activity>
+95
+96        <provider
+96-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:98:9-103:40
+97            android:name="com.example.android.pascuccimenu.data.PascucciMenuProvider"
+97-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:99:13-86
+98            android:authorities="com.example.android.pascuccimenu"
+98-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:100:13-67
+99            android:exported="false"
+99-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:101:13-37
+100            android:grantUriPermissions="true"
+100-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:102:13-47
+101            android:process=".editor" />
+101-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:103:13-38
+102
+103        <!--
+104 ATTENTION: This was auto-generated to add_item Google Play services to your project for
+105     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+106        -->
+107        <meta-data
+107-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:109:11-111:71
+108            android:name="com.google.android.gms.version"
+108-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:110:15-60
+109            android:value="@integer/google_play_services_version" />
+109-->D:\Work\Pascucci\pascucci2019\app\src\main\AndroidManifest.xml:111:15-68
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\f2f3557c9b2d220e2cca452c832db50a\play-services-base-10.0.0\AndroidManifest.xml:19:9-172
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\f2f3557c9b2d220e2cca452c832db50a\play-services-base-10.0.0\AndroidManifest.xml:19:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\f2f3557c9b2d220e2cca452c832db50a\play-services-base-10.0.0\AndroidManifest.xml:19:146-170
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\f2f3557c9b2d220e2cca452c832db50a\play-services-base-10.0.0\AndroidManifest.xml:19:86-145
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0f2a8a6b02a531923fb18708154008b3\firebase-common-10.0.0\AndroidManifest.xml:6:9-194
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0f2a8a6b02a531923fb18708154008b3\firebase-common-10.0.0\AndroidManifest.xml:6:79-143
+118            android:authorities="com.android.pascuccimenu.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0f2a8a6b02a531923fb18708154008b3\firebase-common-10.0.0\AndroidManifest.xml:6:19-78
+119            android:exported="false"
+119-->[com.google.firebase:firebase-common:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0f2a8a6b02a531923fb18708154008b3\firebase-common-10.0.0\AndroidManifest.xml:6:144-168
+120            android:initOrder="100" />
+120-->[com.google.firebase:firebase-common:10.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0f2a8a6b02a531923fb18708154008b3\firebase-common-10.0.0\AndroidManifest.xml:6:169-192
+121    </application>
+122
+123</manifest>
